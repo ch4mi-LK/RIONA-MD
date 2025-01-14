@@ -1,0 +1,71 @@
+{
+  "name": "RIONA-MD",
+  "description": "RIONA-MD Whatsapp bot © ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴄʜ4ᴍɪ × ʙᴏʏ · · ·",
+  "logo": "https://i.ibb.co/mFL4JNb/RIONA.jpg",
+  "keywords": ["bot"],
+  "success_url": "/",
+
+    "stack": "container",
+  "env": {
+    "SESSION_ID": {
+      "description": "Put the session-id here.",
+      "required": true,
+      "value": "public"
+    },  
+    
+    "MODE": {
+      "description": "private,inbox,group,public",
+      "required": true,
+      "value": "public"
+   },
+    
+    "PREFIX": {
+      "description": "#,!,/,$",
+      "required": true,
+      "value": "."
+    },
+    
+    "AUTO_VOICE": {
+      "description": "Auto send voice message",
+      "required": false,
+      "value": "true"
+    },
+    
+    "AUTO_REPLY": {
+      "description": "Auto reply message",
+      "required": false,
+      "value": "true"
+    },
+    
+    "AUTO_REACT": {
+      "description": "Auto react massage",
+      "required": false,
+      "value": "true"
+    },
+    
+    "AUTO_READ_STATUS": {
+      "description": "Just Now reading status",
+      "required": true,
+      "value": "true"
+    },
+    
+    "ANTI_BAD": {
+      "description": "Bad words remove",
+      "required": true,
+      "value": "true"
+    },
+    
+    "ANTI_LINK": {
+      "description": "Anti link remove",
+      "required": true,
+      "value": "true"
+    }
+},
+
+     "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+}
