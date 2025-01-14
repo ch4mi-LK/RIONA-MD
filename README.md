@@ -13,7 +13,6 @@
   </a>
 
 GET YOUR SESSION ID USING PAIRCODE 💃
-
      
 <a href="https://okay-tuesday-ch4mi-1-f41e39cf.koyeb.app///pair"><img src="https://img.shields.io/badge/LOGIN%20WITH-PAIR%20CODE-black" alt="LOGIN WITH PAIR CODE" width="275"></a>
 
